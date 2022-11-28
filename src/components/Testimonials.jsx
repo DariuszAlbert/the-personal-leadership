@@ -5,18 +5,20 @@ import FeedbackCard from './FeedbackCard'
 
 const Testimonials = () => {
   return (
-    <div >
-      <section id='clients' className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-10 `}>
+    
+      <section id='clients' className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-0 `}>
         
 
         <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 z-[1]'>
-          <h2 className={styles.heading2}>What people are<br className='sm:block hidden' /> saying about us</h2>
-          <div className='w-full md:mt-0 mt-6'>
-            <p className={`${styles.paragraph} text-left max-w-[450px]`}>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+          <h1 className='flex-1 font-poppins font-semibold sm:text-[60px] text-[38px] text-white text-left sm:leading-[70px] leading-[50px] sm:ml-10 ml-5 p-6'>
+                      Co mówią <br className='sm:block hidden' />
+                      <span className='text-gradient md:ml-[160px] ml-20'>klienci?{' '}</span> </h1>
+          <div className=' w-[50%] flex justify-center md:ml-20 ml-0 md:mt-0  mt-6'>
+            <p className={`${styles.paragraph} text-left max-w-[450px]`}>O niezwykłej skuteczności procesu coachingowego dowiadujemy od ludzi, którzy juz korzystaja z jego dobrodziejstw..</p>
           </div>
         </div>
 
-        <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
+        <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1] p-10'>
           {feedback.map((card) =>(
             <FeedbackCard key={card.id} {...card}/>
                   
@@ -31,7 +33,7 @@ const Testimonials = () => {
         <div />
 
       </section>
-    </div>
+   
   )
 }
 

@@ -20,11 +20,11 @@ const FeatureCard = ({icon, title, content, index}) => {
 
 const Business = () => {
   return (
-    <section id="features" className={layout.section}> 
+    <section id="values" className={layout.section}> 
       <div >
         <h1 className='flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px] sm:ml-10 ml-5 p-6'>
         Co da Ci {" "}<br className='sm:block hidden' />
-         <span className='text-gradient ml-10'>Coaching?{' '}</span></h1>
+         <span className='text-gradient ml-16'>Coaching?{' '}</span></h1>
 
          <div className={`flex flex-row p-6 rounded-[20px]  sm:mr-10 sm:ml-14 `}>
           <div className='flex flex-col'>

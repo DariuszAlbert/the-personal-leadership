@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style'
-import {Business, CTA, Footer, Core, Navbar, Testimonials} from './components'
+import {Business, CTA, Footer, Core, Navbar, FAQ, Testimonials} from './components'
 import { scrollPositionTracker } from './hooks/scrollPositionTracker';
 
 const App = () => {
@@ -27,6 +27,7 @@ const App = () => {
             {/* <Stats /> */}
             <Business />
             <Testimonials />
+          
             <CTA />
             <Footer />
 

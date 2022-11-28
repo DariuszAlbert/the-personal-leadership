@@ -6,7 +6,7 @@ export const navLinks = [
     title: "Coaching",
   },
   {
-    id: "coaching",
+    id: "coaching-1",
     title: "Czym jest?",
   },
   {

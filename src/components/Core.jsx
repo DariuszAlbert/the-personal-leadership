@@ -4,7 +4,8 @@ import styles from '../style';
 
 const Core = () => {
   return (
-    <section id="coaching" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <div id='coaching'>
+    <section id="coaching-1" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} sm:flex-row flex-col xl-px-0 sm-px-16 px-6 items-center`}>     
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px] sm:ml-10 ml-5'>Czym jest
@@ -30,6 +31,7 @@ const Core = () => {
         <div className='absolute z-[0] w-[40%] h-[35%] -right-1/2 pink__gradient'/>
       </div> 
     </section>
+    </div>
   )
 }
 
