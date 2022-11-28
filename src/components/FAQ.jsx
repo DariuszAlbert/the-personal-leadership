@@ -1,92 +1,51 @@
 import React from "react";
+import { firstFaq, secondFaq } from '../constants';
 
+const FAQCard = ({title, content, index}) => {
+    return (
+      <div className={`flex flex-row p-3 rounded-[10px]  feature-card`}>
+        {/* <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+          <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain' />
+        </div> */}
+        <details className='flex-1 flex flex-col ml-3 '>
+          <summary className="font-semibold   rounded-md ">{title}</summary>
+          <p className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] '>{content}</p>
+  
+        </details>
+      </div>
+    )
+  };
 
 const FAQ = () =>{
     return (
-        <div>
-      <section class="text-gray-700">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
-              Frequently Asked Question
+        <div >
+      <section className="text-dimWhite">
+        <div className="container mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px] sm:ml-10 ml-5 p-6">
+              Najczęściej zadawane{' '} <span className='text-gradient '> pytania...</span> 
             </h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              The most common questions about how our business works and what
-              can do for you.
+            <p className="text-[20px] leading-relaxed  mx-auto">
+            Najczęstsze pytania dotyczące tego, jak działa coaching i jak pracujemy...
             </p>
           </div>
-          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div class="w-full lg:w-1/2 px-4 py-2">
-              <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How Long is this site live?
-                </summary>
 
-                <span>
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
-                </span>
-              </details>
-              <details class="mb-4">
-                <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
-                  Can I install/upload anything I want on there?
-                </summary>
-
-                <span>
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
-                </span>
-              </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How can I migrate to another site?
-                </summary>
-
-                <span>
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
-                </span>
-              </details>
+          <div className="flex flex-row lg:w-4/5 sm:mx-auto sm:mb-0 -mx-2">
+            <div className="w-full ">
+                {firstFaq.map((faq, index) =>(
+                    <FAQCard key={faq.id} {...faq} index={index}/>
+                                    )
+                                )}
             </div>
-            <div class="w-full lg:w-1/2 px-4 py-2">
-              <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  Can I change the domain you give me?
-                </summary>
-
-                <span class="px-4 py-2">
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
-                </span>
-              </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How many sites I can create at once?
-                </summary>
-
-                <span class="px-4 py-2">
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
-                </span>
-              </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How can I communicate with you?
-                </summary>
-
-                <span class="px-4 py-2">
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
-                </span>
-              </details>
+            <div className="w-full ">
+                {secondFaq.map((faq, index) =>(
+                    <FAQCard key={faq.id} {...faq} index={index}/>
+                                    )
+                                )}
             </div>
+           
           </div>
+        
         </div>
       </section>
     </div>
