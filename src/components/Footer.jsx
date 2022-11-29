@@ -13,16 +13,12 @@ const Footer = () => {
             <div ><FooterLogo /></div>
             <div className="mt-4" ><MainSlogan /></div>
         </div> */}
-        <div className={`${styles.flexCenter} hidden sm:block w-full flex-row sm:justify-start sm:mt-10 text-center mt-2 sm:ml-16 `}>
+        <div className={`${styles.flexCenter} hidden lg:block w-full flex-row sm:justify-start sm:mt-10 text-center mt-2 sm:ml-16 `}>
           
-        <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
-                     
-                    
-                      tel. 503 769 939<br/>
-                      e-mail:<br/> aleksandra@the-presonal-leadership.com
+                    <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
+                       <a href="tel:+48 503 769 939" className='mt-2 '><span className='text-gradient '>+48 503 769 939</span></a><br/>
+                      <a href="mailto:darek.golunski@gmail.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "><span className='text-gradient '>aleksandra@the-presonal-leadership.com</span></a><br/>
                     </p>
-
-
         </div>
 
         <div className={`${styles.flexCenter} w-full flex flex-col text-center mt-3 sm:mt-0 `}>
@@ -36,25 +32,24 @@ const Footer = () => {
            </div>
         </div>
 
-        <div className={`${styles.flexCenter} sm:hidden w-full flex-row sm:justify-start sm:mt-10 text-center mt-2 sm:ml-16 `}>
+        <div className={`${styles.flexCenter} lg:hidden w-full flex-row lg:justify-start sm:mt-10 text-center mt-2 lg:ml-16 `}>
           
-        <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
-                     
-                  
-                      tel. 503 769 939<br/>
-                      e-mail:<br/> aleksandra@the-presonal-leadership.com
+                      <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
+                      <a href="tel:+48 503 769 939" className='mt-2 '><span className='text-gradient '>+48 503 769 939</span></a><br/>
+                      <a href="mailto:darek.golunski@gmail.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "><span className='text-gradient '>aleksandra@the-presonal-leadership.com</span></a><br/>
+                      {/* e-mail:<br/> aleksandra@the-presonal-leadership.com */}
                     </p>
 
 
         </div>
         
-        <div className='flex flex-row w-full  justify-center items-center text-center md:mt-0 sm:mt-10 mt-3 sm:mr-16 sm:mb-0 mb-6  ml-0'>
+        <div className='flex flex-row w-full  justify-center items-center text-center md:mt-0 lg:mt-10 mt-3 lg:mr-16 lg:mb-0 mb-6  ml-0'>
           {footerLinks.map((footerLink) =>(
-            <div key={footerLink.key} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
+            <div key={footerLink.id} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
             <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white mb-2'>{footerLink.title}</h4>
             <ul className='list-none'>
               {footerLink.links.map((link, index) => (
-                <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== link.link.lenght - 1 ? 'mb-2' : 'mb-0'}`}>
+                <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== link.link.length - 1 ? 'mb-2' : 'mb-0'}`}>
                   <a href={link.link}>{link.name}</a>
                 </li>
               ))}

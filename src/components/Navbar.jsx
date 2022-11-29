@@ -13,21 +13,21 @@ const Navbar = () => {
     <div className={` ${styles.boxWidth}`}>
         <nav className=' flex pt-1 justify-between items-center navbar'>
           <div className={`flex-col items-start`}>
-            <div className={`${styles.flexStart} sm:flex-row flex-col  sm:text-[40px] text-[16px] sm:leading-[33px] leading-[10px] font-medium mt-2`}>
+            <div className={`${styles.flexStart} sm:flex-row flex-col xl:text-[40px] lg:text-[30px] sm:text-[40px] text-[16px] sm:leading-[33px] leading-[10px] font-medium mt-2`}>
               <p className='font-poppins font-medium  mt-2 '>
               <span className='text-white ' >The</span>
               </p>
-              <p className='font-poppins font-medium sm:ml-5  mt-2'>
+              <p className='font-poppins font-medium xl:ml-5  lg:ml-2 sm:ml-5  mt-2'>
               <span className='text-gradient' >Personal</span> 
               </p>
-              <p className='font-poppins font-medium sm:ml-5  mt-2'>
+              <p className='font-poppins font-medium xl:ml-5  lg:ml-2 sm:ml-5  mt-2'>
               <span className='text-white  ' >Leadership </span>
               </p>
             </div> 
           </div>
 
-        <ul className='list-none md:flex hidden justify-end items-center flex-1 z-10'>
-            <h4><span className='font-poppins text-gradient text-[30px] text-medium mr-5' >Coaching...</span> </h4>
+        <ul className='list-none lg:flex hidden justify-end items-center flex-1 z-10'>
+            <h4><span className='font-poppins text-gradient xl:text-[30px] lg:text-[28px] sm:text-[30px] text-medium mr-5' >Coaching...</span> </h4>
           {navLinks.map((nav, index) =>(
             <li 
             key={nav.id}
@@ -40,11 +40,11 @@ const Navbar = () => {
         </ul>
         
     {/* MOBILE RESPONSIVE-------------------------------------------------------------------------------- */}
-    <div className='md:hidden flex flex-1 justify-end items-center z-10 ml-[80px]'>
+    <div className='lg:hidden flex flex-1 justify-end items-center z-10 ml-[80px] mt-2'>
             <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[38px] h-[38px] object-contain"
+            className="w-[38px] md:w-[48px]  h-[38px] md:h-[48px] object-contain"
             onClick={()=> setToggle((prev)=>!prev)}
             />
             

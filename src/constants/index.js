@@ -1,4 +1,4 @@
-import { people01, people02, send, shield, star  } from "../assets";
+import { monika, people02, send, shield, star  } from "../assets";
 
 export const navLinks = [
 
@@ -43,7 +43,7 @@ export const whatGives = [
   {
     id: "feature-3",
     icon: send,
-    title: "Będziesz sprawne wytyczać i osiągać cele",
+    title: "Będziesz sprawnie wytyczać i osiągać cele",
     content:
       "Zrozumiesz, czego chcesz i po co tego chcesz. Dowiesz się, jak to osiągnąć. Podniesiesz poziom osobistej skuteczności i satysfakcji w różnych dziedzinach życia.",
   },
@@ -53,19 +53,20 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Wiedza i narzędzia zdobyte podczas naszych spotkań otworzyły mi możliwość lepszego zarządzania swoim czasem, lepszej wiedzy na temat własnych talentów, potencjałów i możliwości, a także rozpoczęcie procesu pozbywania się zupełnie niepotrzebnych blokujących mnie przekonań.",
+    name: "Monika",
+    title: "DoMMastersWoodArt",
+    img: monika,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Wiedza i narzędzia zdobyte podczas naszych spotkań otworzyły mi możliwość lepszego zarządzania swoim czasem, lepszej wiedzy na temat własnych talentów, potencjałów i możliwości, a także rozpoczęcie procesu pozbywania się zupełnie niepotrzebnych blokujących mnie przekonań.",
+    name: "Monika",
+    title: "DoMMastersWoodArt",
+    img: monika,
   },
+ 
   
 ];
 
@@ -73,6 +74,7 @@ export const feedback = [
 export const footerLinks = [
   {
     title: "Przydatne linki",
+    id: "link-1",
     links: [
       {
         name: "EMCC Poland",
@@ -134,7 +136,7 @@ export const secondFaq = [
   },
   {
     id: "faq-7",
-    title: "Czym coaching nie jest?",
+    title: "Czym coaching jest, a czym nie jest?",
     content:
       "Nie jest doradztwem, nie jest też formą psychoterapii, ani treningiem motywacyjnym. Nie jest manipulacją, kontrolą, ani luźną przyjacielską relacją. Coach nie doradza i nie sugeruje, nie diagnozuje i nie leczy, nie zagląda w przeszłość, nie motywuje, nie uczy, nie kontroluje i nie ocenia. Coach umożliwia Ci wgląd i naukę, wspiera, towarzyszy, proponuje narzędzia, poszerza Twoją perspektywę. A Ty stajesz się autorem własnego sukcesu.",
   },
@@ -155,7 +157,7 @@ export const secondFaq = [
     id: "faq-10",
     title: "Czy coaching to to samo, co doradztwo albo psychoterapia?",
     content:
-      "Zdecydowanie nie. Coaching nie jest procesem leczenia, lecz rozwoju. Nie jest ani mentoringiem, ani doradztwem. Nie dostaniesz tu gotowego rozwiązania, ani porady. W bezpiecznym środowisku, przy wsparciu profesjonalisty i odpowiednich narzędzi, najlepsze dla siebie rozwiązanie wypracujesz sam.",
+      "Zdecydowanie nie. Coaching nie jest procesem leczenia, lecz rozwoju. Nie jest ani psychoterapią, ani doradztwem. Nie dostaniesz tu gotowego rozwiązania, ani porady. W bezpiecznym środowisku, przy wsparciu profesjonalisty i odpowiednich narzędzi, najlepsze dla siebie rozwiązanie wypracujesz sam.",
   },
   
 ];

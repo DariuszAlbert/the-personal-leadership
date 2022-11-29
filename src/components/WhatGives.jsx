@@ -23,7 +23,7 @@ const WhatGives = () => {
     <section id="values" className={layout.section}> 
       <div className='sm:w-1/2 w full'>
         <h1 className='flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px] sm:ml-10 ml-5 sm:p-6 p-0'>
-        Co da Ci {" "}<br className='sm:block hidden' />
+        Co da Ci {" "}<br className='md:hidden block' />
          <span className='text-gradient ml-16'>Coaching?{' '}</span></h1>
         
           <div className={`hidden md:flex flex-row p-6 rounded-[20px]  sm:mr-10 sm:ml-14  `}>

@@ -9,6 +9,8 @@ import arrowUp from "./arrow-up.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import ola from "./ola.png";
+import monika from "./monika.png";
+import success from "./success.jpg";
 
 export {
   quotes,
@@ -21,4 +23,6 @@ export {
   people01,
   people02,
   ola,
+  monika,
+  success,
 };

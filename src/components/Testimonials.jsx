@@ -9,16 +9,16 @@ const Testimonials = () => {
       <section id='testimonials' className={` ${styles.flexCenter} flex-col relative mt-4 `}>
         
 
-        <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-0 z-[1]'>
-          <h1 className='flex-1 font-poppins font-semibold sm:text-[60px] text-[38px] text-white text-left sm:leading-[70px] leading-[50px] sm:ml-10 ml-5 sm:p-6 p-0'>
-                      Co mówią <br className='sm:block hidden' />
+        <div className='w-full flex justify-start xs:items-start items-center md:flex-row flex-col sm:mb-16 mb-0 z-[1]'>
+          <h1 className=' font-poppins font-semibold sm:text-[60px] text-[38px] text-white text-left sm:leading-[70px] leading-[50px] sm:ml-10 ml-5 sm:p-6 p-0'>
+                      Co mówią <br className='md:hidden block' />
                       <span className='text-gradient md:ml-[160px] ml-20'>klienci?{' '}</span> </h1>
           <div className='hidden  sm:flex w-[50%]  justify-center md:ml-20 ml-0 md:mt-0  mt-6'>
             <p className={`${styles.paragraph} text-left max-w-[450px]`}>O niezwykłej mocy procesu coachingowego i o pracy ze mną mówią moi Klienci...</p>
           </div>
         </div>
 
-        <div className='flex sm:flex-row flex-col  justify-center w-full feedback-container relative z-[1] p-0 mt-4 '>
+        <div className='flex sm:flex-row flex-col justify-center feedback-container relative z-[1] p-0 mt-4 '>
           {feedback.map((card) =>(
             <FeedbackCard key={card.id} {...card}/>
                   

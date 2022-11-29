@@ -8,13 +8,14 @@ const App = () => {
 
   return (
     <div  className='bg-color w-full overflow-hidden '>
+    
       <div className={ scrollPosition > 0 ? `${styles.navBehaviour} ${styles.paddingX}  bg-color ` : ` ${styles.navBehaviour} ${styles.paddingX} `} >
         <div className={` ${styles.flexCenter}`}>
             <Navbar />
         </div> 
       </div>
       
-      <div id="home" className={`${styles.flexStart}`}>
+      <div id="home"  className={` bg-color ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`mt-40 ${styles.boxWidth}`}>
             <WhatIs />
         </div>
