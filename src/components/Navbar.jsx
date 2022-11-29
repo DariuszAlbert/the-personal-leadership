@@ -27,6 +27,7 @@ const Navbar = () => {
           </div>
 
         <ul className='list-none md:flex hidden justify-end items-center flex-1 z-10'>
+            <h4><span className='font-poppins text-gradient text-[30px] text-medium mr-5' >Coaching...</span> </h4>
           {navLinks.map((nav, index) =>(
             <li 
             key={nav.id}
@@ -48,7 +49,9 @@ const Navbar = () => {
             />
             
             <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20   mx-4 my-20 min-w-[140px] rounded-xl sidebar`}>
+            
               <ul  className='list-none flex flex-col justify-end items-center flex-1'>
+              <li className='mb-3'><h4 className='font-poppins'><span className='text-gradient text-[30px] text-medium' >Coaching...</span> </h4></li>
                   {navLinks.map((nav, index) =>(
                     
                     <li 

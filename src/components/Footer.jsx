@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../style';
 import PersonalLidership from './PersonalLidership';
+import SuccessAuthor from './SuccessAuthor';
 import { footerLinks } from '../constants';
 
 const Footer = () => {
@@ -10,8 +11,7 @@ const Footer = () => {
         <div className={`${styles.flexCenter}  flex-1 flex-col mr-10 text-center `}>
           {/* <img src={logo} alt="hoobank" className='w-[266px] h-[72px] object-contain'/> */}
           <div ><PersonalLidership /></div>
-          
-          <p className={`${styles.paragraph} max-w-[312px] h-[64px] mt-4`}>A new way to make the payments easy, reliable and secure.</p>
+          <div className="mt-4" ><SuccessAuthor /></div>
         </div>
         <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
           {footerLinks.map((footerLink) =>(

@@ -27,6 +27,7 @@ const App = () => {
             {/* <Stats /> */}
             <Business />
             <Testimonials />
+            <CTA />
             <FAQ />
             <CTA />
             <Footer />

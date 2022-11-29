@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html {scroll-padding-top: 200px;}
+body, html {scroll-padding-top: 150px;}
 
 :root {
   width: 100%;
@@ -37,7 +37,7 @@ body, html {scroll-padding-top: 200px;}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .bg-color {
@@ -118,8 +118,9 @@ body, html {scroll-padding-top: 200px;}
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var(--black-gradient,);
   box-shadow: var(--card-shadow);
+  scale: 110%;
 }
 
 .feedback-container .feedback-card:last-child {

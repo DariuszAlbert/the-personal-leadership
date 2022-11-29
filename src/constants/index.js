@@ -1,10 +1,10 @@
 import { people01, people02, people03, send, shield, star  } from "../assets";
 
 export const navLinks = [
-  {
-    id: "coaching",
-    title: "Coaching",
-  },
+  // {
+  //   id: "coaching",
+  //   title: "Coaching",
+  // },
   {
     id: "coaching-1",
     title: "Czym jest?",
@@ -14,10 +14,19 @@ export const navLinks = [
     title: "Co Ci da? ",
   },
   {
-    id: "clients",
+    id: "testimonials",
     title: "Opinie",
   },
+  {
+    id: "price",
+    title: "Cennik",
+  },
+  {
+    id: "faq",
+    title: "FAQ",
+  },
 ];
+
 
 export const features = [
   {
@@ -60,14 +69,14 @@ export const feedback = [
     title: "Founder & Leader",
     img: people02,
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Kenn Gallagher",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 // export const stats = [

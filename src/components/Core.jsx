@@ -7,16 +7,16 @@ const Core = () => {
     <div id='coaching'>
     <section id="coaching-1" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} sm:flex-row flex-col xl-px-0 sm-px-16 px-6 items-center`}>     
-        <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px] sm:ml-10 ml-5'>Czym jest
+        <div className='flex flex-row justify-between items-center lg:w-1/2 ml-5'>
+          <h1 className='flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px]  '>Czym jest
             <br className='sm:block hidden'  />{" "}
               <span className='text-gradient ml-16'>Coaching?</span>{" "}
             <br className='sm:block hidden' /> {" "}
           </h1>
         </div>
-        <div className={`flex flex-row p-6 rounded-[20px]  sm:mr-10 sm:ml-14`}>
+        <div className={`flex flex-row  p-2 rounded-[20px] sm:w-1/2 w-full `}>
           <div className='flex flex-col'>
-              <p className={`font-calibri font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px] sm:w-[470px] `}>
+              <p className={`font-calibri font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px]  `}>
                   To proste...<br/> <span className='text-gradient text-[32px]'>Coaching jest...{' '}</span> <br/>
                   najskuteczniejszą metodą osiągania założonych celów i spełniania marzeń!
               </p>

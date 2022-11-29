@@ -4,7 +4,8 @@ import styles from '../style';
 const PersonalLidership = () => {
   return (
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full  bg-blue-gradient p-[2px] cursor-pointer `}>
-          <div className={`${styles.flexCenter} flex-col bg-black-gradient w-[100%] h-[100%] rounded-full  `}>
+          <div className={`${styles.flexCenter} flex-col bg-black-gradient w-[100%] h-[100%] rounded-full   `}>
+          <div className='mb-3'>
             <div className={`${styles.flexStart} flex-row`}>
               <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
               <span className='text-white ' >The</span>
@@ -16,6 +17,7 @@ const PersonalLidership = () => {
               <span className='text-white ' >Leadership</span>
               </p>
           </div>
+        </div>
     </div>
   )
 };
