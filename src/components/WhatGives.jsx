@@ -1,11 +1,11 @@
 import React from 'react';
-import { features } from '../constants';
+import { whatGives } from '../constants';
 import styles, {layout} from '../style';
-import Button from './Button';
+
 
 const FeatureCard = ({icon, title, content, index}) => {
   return (
-    <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length-1 ? 'mb-6' : 'mb-0'} feature-card`}>
+    <div className={`flex flex-row p-6 rounded-[20px] ${index !== whatGives.length-1 ? 'mb-6' : 'mb-0'} feature-card`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
         <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain' />
       </div>
@@ -18,7 +18,7 @@ const FeatureCard = ({icon, title, content, index}) => {
   )
 };
 
-const Business = () => {
+const WhatGives = () => {
   return (
     <section id="values" className={layout.section}> 
       <div className='sm:w-1/2 w full'>
@@ -28,27 +28,20 @@ const Business = () => {
         
           <div className={`hidden md:flex flex-row p-6 rounded-[20px]  sm:mr-10 sm:ml-14  `}>
             <div className='flex flex-col '>
-                <p className={`font-calibri font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px] sm:w-[470px]  `}>
+                <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px] sm:w-[470px]  `}>
                   Korzyści wynikające z prawidłowo przeprowadzonego procesu coachingu są imponujące! Oto kilka z nich...
                 </p>
             </div>
           </div>
-        
-         
       </div>
-      
-
       <div className={`flex-1 flex ${styles.flexCenter}  ml-0 md:mt-0 mt-10 relative flex-col`}>
-        {features.map((feature, index) =>(
-          <FeatureCard key={feature.id} {...feature} index={index}/>
-        )
-
-        )}
-
+        {whatGives.map((benefit, index) =>(
+          <FeatureCard key={benefit.id} {...benefit} index={index}/>
+            )
+          )}
       </div>
-
     </section>
   )
 };
 
-export default Business;
+export default WhatGives;

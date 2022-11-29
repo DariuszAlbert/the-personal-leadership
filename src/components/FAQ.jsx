@@ -26,18 +26,18 @@ const FAQ = () =>{
               Najczęściej zadawane{' '} <span className='text-gradient sm:ml-0 ml-16 '> pytania...</span> 
             </h1>
             <p className=" hidden sm:flex text-[22px] leading-relaxed justify-center mt-4 ">
-            Najczęstsze pytania dotyczące tego, jak działa coaching i jak pracujemy...
+            Najczęstsze pytania dotyczące tego, jak działa coaching, i jak pracuję...
             </p>
           </div>
 
-          <div className="flex sm:flex-row flex-col lg:w-4/5 sm:mx-auto sm:mb-0 -mx-2">
+          <div className="flex sm:flex-row flex-col  lg:w-4/5 sm:mx-auto sm:mb-0 -mx-2">
             <div className="w-full ">
                 {firstFaq.map((faq, index) =>(
                     <FAQCard key={faq.id} {...faq} index={index}/>
                                     )
                                 )}
             </div>
-            <div className="w-full ">
+            <div className="w-full hidden sm:block ">
                 {secondFaq.map((faq, index) =>(
                     <FAQCard key={faq.id} {...faq} index={index}/>
                                     )

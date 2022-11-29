@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../style';
 
 
-const Core = () => {
+const WhatIs = () => {
   return (
     <div id='coaching'>
     <section id="coaching-1" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -16,7 +16,7 @@ const Core = () => {
         </div>
         <div className={`flex flex-row  p-2 rounded-[20px] sm:w-1/2 w-full `}>
           <div className='flex flex-col'>
-              <p className={`font-calibri font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px]  `}>
+              <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px]  `}>
                   To proste...<br/> <span className='text-gradient text-[32px]'>Coaching jest...{' '}</span> <br/>
                   najskuteczniejszą metodą osiągania założonych celów i spełniania marzeń!
               </p>
@@ -35,4 +35,4 @@ const Core = () => {
   )
 }
 
-export default Core;
+export default WhatIs;

@@ -1,10 +1,7 @@
-import { people01, people02, people03, send, shield, star  } from "../assets";
+import { people01, people02, send, shield, star  } from "../assets";
 
 export const navLinks = [
-  // {
-  //   id: "coaching",
-  //   title: "Coaching",
-  // },
+
   {
     id: "coaching-1",
     title: "Czym jest?",
@@ -28,27 +25,27 @@ export const navLinks = [
 ];
 
 
-export const features = [
+export const whatGives = [
   {
     id: "feature-1",
     icon: star,
-    title: "Odblokowanie osobistego potencjału",
+    title: "Odblokujesz osobisty potencjał",
     content:
-      "Odkrywasz uśpione zasoby, wzmacniasz naturalne talenty, znajdujesz motywację. Podejmujesz trafniejsze decyzje i zwyczajnie - jesteś bardziej szczęśliwy.",
+      "Odkryjesz uśpione zasoby, wzmocnisz naturalne talenty, znajdziesz motywację. Będziesz podejmował trafniejsze decyzje i zwyczajnie - staniesz się szczęśliwszy.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Poprawa komunikacji i relacji interpersonalnych",
+    title: "Poprawisz komunikację i swoje relacje",
     content:
-      "Wzmacniasz poczucie własnej wartości, a to pozwala otworzyć się na innych ludzi. Budujesz zdrowe i wartościowe relacje.",
+      "Wzmocnisz poczucie własnej wartości, co sprawi, że otworzysz się na innych ludzi. Będziesz budował zdrowe i wartościowe relacje.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Sprawne wytyczanie i osiąganie celów",
+    title: "Będziesz sprawne wytyczać i osiągać cele",
     content:
-      "Wiesz, czego chcesz i po co tego chcesz. Wiesz jak to osiągnąć. Podnosisz poziom osobistej skuteczności i satysfakcji w różnych dziedzinach życia.",
+      "Zrozumiesz, czego chcesz i po co tego chcesz. Dowiesz się, jak to osiągnąć. Podniesiesz poziom osobistej skuteczności i satysfakcji w różnych dziedzinach życia.",
   },
 ];
 
@@ -69,106 +66,34 @@ export const feedback = [
     title: "Founder & Leader",
     img: people02,
   },
-  // {
-  //   id: "feedback-3",
-  //   content:
-  //     "It is usually people in the money business, finance, and international trade that are really rich.",
-  //   name: "Kenn Gallagher",
-  //   title: "Founder & Leader",
-  //   img: people03,
-  // },
+  
 ];
 
-// export const stats = [
-//   {
-//     id: "stats-1",
-//     title: "User Active",
-//     value: "3800+",
-//   },
-//   {
-//     id: "stats-2",
-//     title: "Trusted by Company",
-//     value: "230+",
-//   },
-//   {
-//     id: "stats-3",
-//     title: "Transaction",
-//     value: "$230M+",
-//   },
-// ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Przydatne linki",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "EMCC Poland",
+        link: "https://emccpoland.org/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Globalny Kodeks Etyczny",
+        link: "https://emccpoland.org/wp-content/uploads/2019/11/Kodeks-etyki-2021-PL.pdf",
       },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      
     ],
   },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+ 
 ];
 
 export const firstFaq = [
   {
     id: "faq-1",
-    title: "Czym coaching nie jest?",
+    title: "Co zawiera cena?",
     content:
-      "Nie jest doradztwem, nie jest też formą psychoterapii, ani treningiem motywacyjnym. Nie jest manipulacją, kontrolą, ani luźną przyjacielską relacją. Coach nie doradza i nie sugeruje, nie diagnozuje i nie leczy, nie zagląda w przeszłość, nie motywuje, nie uczy, nie kontroluje i nie ocenia. Coach umożliwia Ci wgląd i naukę, wspiera, towarzyszy, proponuje narzędzia, poszerza Twoją perspektywę. A Ty stajesz się autorem własnego sukcesu.",
+      "Ustaloną liczbę spotkań on-line, pracę coacha przed, w trakcie i po spotkaniu polegającą na analizie i indywidualnym doborze narzędzi oraz metod wspomagających Cię w określaniu i realizowaniu Twoich celów. Ćwiczenia dobierane odpowiednio do Ciebie, tematyki sesji i Twoich potrzeb.",
   },
   {
     id: "faq-2",
@@ -184,16 +109,18 @@ export const firstFaq = [
   },
   {
     id: "faq-4",
-    title: "Czy coaching jest tylko dla managerów?",
+    title: " Ile trwa coaching i w jakiej formie jest prowadzony?",
     content:
-      "Oczywiście, że nie! Coaching jest potężnym narzędziem pomagającym osiągać cele biznesowe. Ale nie tylko – proces może dotyczyć życia osobistego, relacji, kariery, czy zdrowia.",
+      "Proces coachingowy to 4-12 sesji, nie licząc infosesji. Jego długość zależy od Twoich indywidualnych potrzeb i celów. Pojedyncza sesja trwa 70 min. Sesje odbywają się on-line, średnio co 2 tygodnie.",
   },
   {
     id: "faq-5",
-    title: "Czy coaching to to samo, co doradztwo albo psychoterapia?",
+    title: "Kto się dowie o tym, co powiedziałem na sesji?",
     content:
-      "Zdecydowanie nie. Coaching nie jest procesem leczenia, lecz rozwoju. Nie jest ani mentoringiem, ani doradztwem. Nie dostaniesz tu gotowego rozwiązania, ani porady. W bezpiecznym środowisku, przy wsparciu profesjonalisty i odpowiednich narzędzi, najlepsze dla siebie rozwiązanie wypracujesz sam.",
+      "Nikt. Coach jest zobowiązany do całkowitej poufności i zachowania tajemnicy procesu. Pracuję zgodnie ze standardami EMCC, międzynarodowej organizacji skupiającej ekspertów-praktyków mentoringu, coachingu i superwizji. Przestrzegam Kodeksu Etycznego tej organizacji.",
   },
+ 
+  
 
 ];
 
@@ -207,15 +134,16 @@ export const secondFaq = [
   },
   {
     id: "faq-7",
-    title: " Ile trwa coaching i w jakiej formie jest prowadzony?",
+    title: "Czym coaching nie jest?",
     content:
-      "Proces coachingowy to 4-10 sesji, nie licząc sesji wstępnej. Jego długość zależy od Twoich indywidualnych potrzeb i celów. Pojedyncza sesja trwa 70-90 min. Sesje odbywają się on-line, średnio co 2 tygodnie.",
+      "Nie jest doradztwem, nie jest też formą psychoterapii, ani treningiem motywacyjnym. Nie jest manipulacją, kontrolą, ani luźną przyjacielską relacją. Coach nie doradza i nie sugeruje, nie diagnozuje i nie leczy, nie zagląda w przeszłość, nie motywuje, nie uczy, nie kontroluje i nie ocenia. Coach umożliwia Ci wgląd i naukę, wspiera, towarzyszy, proponuje narzędzia, poszerza Twoją perspektywę. A Ty stajesz się autorem własnego sukcesu.",
   },
+ 
   {
     id: "faq-8",
-    title: "Co zawiera cena?",
+    title: "Czy coaching jest tylko dla managerów?",
     content:
-      "Ustaloną liczbę spotkań on-line, narzędzia i metody wspomagające określanie i realizowanie celów, ćwiczenia dobierane odpowiednio tematyki sesji i Twoich potrzeb, polecane materiały wspierające pracę coachingową.",
+      "Oczywiście, że nie! Coaching jest potężnym narzędziem pomagającym osiągać cele biznesowe. Ale nie tylko – proces może dotyczyć życia osobistego, relacji, kariery, czy zdrowia.",
   },
   {
     id: "faq-9",
@@ -225,10 +153,11 @@ export const secondFaq = [
   },
   {
     id: "faq-10",
-    title: "Kto się dowie o tym, co powiedziałem na sesji?",
+    title: "Czy coaching to to samo, co doradztwo albo psychoterapia?",
     content:
-      "Nikt. Coach jest zobowiązany do całkowitej poufności i zachowania tajemnicy procesu. Pracuję zgodnie ze standardami EMCC, międzynarodowej organizacji skupiającej ekspertów-praktyków mentoringu, coachingu i superwizji. Przestrzegam Kodeksu Etycznego tej organizacji.",
+      "Zdecydowanie nie. Coaching nie jest procesem leczenia, lecz rozwoju. Nie jest ani mentoringiem, ani doradztwem. Nie dostaniesz tu gotowego rozwiązania, ani porady. W bezpiecznym środowisku, przy wsparciu profesjonalisty i odpowiednich narzędzi, najlepsze dla siebie rozwiązanie wypracujesz sam.",
   },
+  
 ];
 
 

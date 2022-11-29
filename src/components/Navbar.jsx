@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { close, menu } from '../assets';
-import SuccessAuthor  from './successAuthor';
+import MainSlogan  from './MainSlogan';
 import styles from '../style';
 import {navLinks} from '../constants';
 
@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className='absolute z-[0] w-[40%] h-[35%] -right-1/2 pink__gradient'/>
 
         </nav>
-        <SuccessAuthor />
+        <MainSlogan />
           
     </div>
   </header>

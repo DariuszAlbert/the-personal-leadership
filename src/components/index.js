@@ -1,19 +1,26 @@
-import Navbar from "./Navbar";
-import Business from "./Business";
 import CTA from "./CTA";
-import Footer from "./Footer";
-import Testimonials from "./Testimonials";
 import FAQ from "./FAQ";
-import Core from "./Core";
-import SuccessAuthor from "./successAuthor";
+import Footer from "./Footer";
+import FooterLogo from "./FooterLogo";
+import FooterPhoto from "./FooterPhoto";
+import Navbar from "./Navbar";
+import MainSlogan from "./MainSlogan";
+import Testimonials from "./Testimonials";
+import WhatGives from "./WhatGives";
+import WhatIs from "./WhatIs";
+
+
+
 
 export {
-  Navbar,
-  Business,
   CTA,
-  Footer,
-  Testimonials,
   FAQ,
-  Core,
-  SuccessAuthor,
+  Footer,
+  FooterLogo,
+  FooterPhoto,
+  Navbar,
+  MainSlogan ,
+  Testimonials,
+  WhatGives,
+  WhatIs,
 };

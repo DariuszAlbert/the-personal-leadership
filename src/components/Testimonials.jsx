@@ -14,7 +14,7 @@ const Testimonials = () => {
                       Co mówią <br className='sm:block hidden' />
                       <span className='text-gradient md:ml-[160px] ml-20'>klienci?{' '}</span> </h1>
           <div className='hidden  sm:flex w-[50%]  justify-center md:ml-20 ml-0 md:mt-0  mt-6'>
-            <p className={`${styles.paragraph} text-left max-w-[450px]`}>O niezwykłej skuteczności procesu coachingowego dowiadujemy od ludzi, którzy juz korzystaja z jego dobrodziejstw..</p>
+            <p className={`${styles.paragraph} text-left max-w-[450px]`}>O niezwykłej mocy procesu coachingowego i o pracy ze mną mówią moi Klienci...</p>
           </div>
         </div>
 

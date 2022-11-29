@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-const SuccessAuthor = () => {
+const MainSlogan = () => {
     return (
         <div className={`flex sm:flex-row flex-col ml-0 sm:items-start items-center text-[20px] leading-[25px]  pb-3 pt-2 `}>
                 <p className='font-calibri font-normal  ml-0 mt-0'>
@@ -14,4 +14,4 @@ const SuccessAuthor = () => {
     )
 };
 
-export default SuccessAuthor;
+export default MainSlogan;
