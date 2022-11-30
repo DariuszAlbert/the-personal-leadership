@@ -11,6 +11,7 @@ import people02 from "./people02.png";
 import ola from "./ola.png";
 import monika from "./monika.png";
 import success from "./success.jpg";
+import dart from "./dart.png";
 
 export {
   quotes,
@@ -25,4 +26,5 @@ export {
   ola,
   monika,
   success,
+  dart,
 };

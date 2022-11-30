@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { close, menu } from '../assets';
 import MainSlogan  from './MainSlogan';
+import Shapes from './Shapes';
 import styles from '../style';
 import {navLinks} from '../constants';
 
@@ -9,9 +10,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
   // DESKTOP------------------------------------------------------------------------------------------
-  <header className={` ${styles.boxWidth}`}>
+ 
+  <header className={` ${styles.boxWidth} relative z-40 overflow-visible`}>
+  
     <div className={` ${styles.boxWidth}`}>
-        <nav className=' flex pt-1 justify-between items-center navbar'>
+    
+    
+        <nav className=' flex pt-1 justify-between items-center relative z-50 navbar'>
           <div className={`flex-col items-start`}>
             <div className={`${styles.flexStart} sm:flex-row flex-col xl:text-[40px] lg:text-[30px] sm:text-[40px] text-[16px] sm:leading-[33px] leading-[10px] font-medium mt-2`}>
               <p className='font-poppins font-medium  mt-2 '>
@@ -26,12 +31,12 @@ const Navbar = () => {
             </div> 
           </div>
 
-        <ul className='list-none lg:flex hidden justify-end items-center flex-1 z-10'>
-            <h4><span className='font-poppins text-gradient xl:text-[30px] lg:text-[28px] sm:text-[30px] text-medium mr-5' >Coaching...</span> </h4>
+        <ul className='list-none lg:flex hidden justify-end items-center flex-1 '>
+            <h4><span className='font-poppins text-gradient xl:text-[28px] lg:text-[26px] sm:text-[28px] text-[28px] text-medium xl:mr-3 mr-6' >Coaching...</span> </h4>
           {navLinks.map((nav, index) =>(
             <li 
             key={nav.id}
-            className={`font-poppins font-normal text-[16px] ${index === navLinks.length-1 ? 'mr-0' : 'mr-10'} text-white hover:text-secondary `}>
+            className={`font-poppins font-normal text-[16px] ${index === navLinks.length-1 ? 'mr-0' : 'mr-7'} text-white hover:text-secondary `}>
 
               <a className='cursor-pointer' href={`#${nav.id}`}>{nav.title}</a>
 
@@ -40,7 +45,7 @@ const Navbar = () => {
         </ul>
         
     {/* MOBILE RESPONSIVE-------------------------------------------------------------------------------- */}
-    <div className='lg:hidden flex flex-1 justify-end items-center z-10 ml-[80px] mt-2'>
+    <div className='lg:hidden flex flex-1 justify-end items-center z-50 ml-[80px] mt-2'>
             <img
             src={toggle ? close : menu}
             alt="menu"
@@ -65,7 +70,7 @@ const Navbar = () => {
             
     </div>
           <div className='absolute z-[0] w-[40%] h-[35%] -right-1/2 pink__gradient'/>
-          <div className='absolute z-[0] w-[80%] h-[80%] rounded-full -right-1/2 white__gradient'/>
+          {/* <div className='absolute z-[0] w-[80%] h-[80%] rounded-full -right-1/2 white__gradient'/> */}
           <div className='absolute z-[0] w-[50%] h-[55%] -right-1/2 bottom-20 blue__gradient'/>
           <div className='absolute z-[0] w-[40%] h-[35%] -right-1/2 pink__gradient'/>
 

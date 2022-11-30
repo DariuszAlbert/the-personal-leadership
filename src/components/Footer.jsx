@@ -7,13 +7,12 @@ import { footerLinks } from '../constants';
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+    <section id="contact" className={`${styles.flexCenter}  flex-col relative`}>
+    
+
       <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
-        {/* <div className={`${styles.flexCenter}  flex flex-col text-center `}>
-            <div ><FooterLogo /></div>
-            <div className="mt-4" ><MainSlogan /></div>
-        </div> */}
-        <div className={`${styles.flexCenter} hidden lg:block w-full flex-row sm:justify-start sm:mt-10 text-center mt-2 sm:ml-16 `}>
+        
+        <div className={`${styles.flexCenter} hidden md:block w-full flex-row sm:justify-start  text-center mt-2 sm:ml-16 `}>
           
                     <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
                        <a href="tel:+48 503 769 939" className='mt-2 '><span className='text-gradient '>+48 503 769 939</span></a><br/>
@@ -32,7 +31,7 @@ const Footer = () => {
            </div>
         </div>
 
-        <div className={`${styles.flexCenter} lg:hidden w-full flex-row lg:justify-start sm:mt-10 text-center mt-2 lg:ml-16 `}>
+        <div className={`${styles.flexCenter} md:hidden w-full flex-row lg:justify-start sm:mt-10 text-center mt-2 lg:ml-16 `}>
           
                       <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
                       <a href="tel:+48 503 769 939" className='mt-2 '><span className='text-gradient '>+48 503 769 939</span></a><br/>

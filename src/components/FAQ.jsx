@@ -18,8 +18,8 @@ const FAQCard = ({title, content, }) => {
 
 const FAQ = () =>{
     return (
-        <div >
-      <section id='faq' className="text-dimWhite">
+      
+      <section id='faq' className="text-dimWhite mt-5 relative z-20">
         <div className="container mx-auto">
           <div className="sm:text-center justify-start sm:mb-20 mb-10 ">
             <h1 className="flex-1 font-poppins font-semibold sm:text-[62px] text-[38px] text-white sm:leading-[75px] leading-[50px] sm:ml-10 ml-5 sm:p-6 p-0">
@@ -48,7 +48,7 @@ const FAQ = () =>{
         
         </div>
       </section>
-    </div>
+   
     )
 };
 

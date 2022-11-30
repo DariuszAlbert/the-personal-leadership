@@ -1,9 +1,9 @@
-import { monika, people02, send, shield, star  } from "../assets";
+import { monika,  send, shield, star  } from "../assets";
 
 export const navLinks = [
 
   {
-    id: "coaching-1",
+    id: "coaching",
     title: "Czym jest?",
   },
   {
@@ -15,12 +15,17 @@ export const navLinks = [
     title: "Opinie",
   },
   {
+    id: "faq",
+    title: "FAQ",
+  },
+  {
     id: "price",
     title: "Cennik",
   },
+  
   {
-    id: "faq",
-    title: "FAQ",
+    id: "contact",
+    title: "Kontakt",
   },
 ];
 

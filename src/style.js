@@ -6,9 +6,9 @@
 // xl: "1700px",
 
 const styles = {
-    boxWidth: "xl:max-w-[1280px] w-full",
+    boxWidth: "xl:max-w-[1280px] lg:max-w-[1060px] w-full",
   
-    heading2: "font-poppins font-semibold xl:text-[48px] xs:text-[38px] text-[30px] text-white xl:leading-[76.8px] xs:leading-[66.8px] leading-[50px] w-full",
+    heading2: "font-poppins font-semibold xl:text-[48px] xs:text-[38px] text-[30px] text-white xl:leading-[66px] xs:leading-[56px] leading-[50px] w-full",
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
   
     flexCenter: "flex justify-center items-center",
@@ -21,7 +21,7 @@ const styles = {
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
  
-    navBehaviour: "transition-all transform ease-in-out delay-400 duration-1000 fixed top-0 w-full z-50  ",
+    navBehaviour: "transition-all transform ease-in-out delay-400 duration-1000 fixed top-0 w-full z-50    ",
 
     navLogoBehaviour: "ss:text-[] leading-[5px]"
 

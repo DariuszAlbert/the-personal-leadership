@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.4",
     "bootstrap": "^5.2.2",
     "react": "^18.2.0",
+    "react-awesome-shapes": "^0.1.12",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3"
   },

@@ -5,12 +5,12 @@ import { shield, star, send } from '../assets'
 
 const CTA = () => {
   return (
-    <section id="price" className={`lg:${styles.flexStart} ${styles.marginY} ${styles.padding} lg:flex-row flex-col  bg-black-gradient-2 rounded-[20px] box-shadow`}>
+    <section id="price" className={`lg:${styles.flexStart} ${styles.marginY} ${styles.padding} lg:flex-row flex-col  bg-black-gradient-2 rounded-[20px] box-shadow relative z-20 opacity-90`}>
       <div className=' flex flex-col justify-center items-center text-center mr-5 mb-4'>
         <h2 className={`${styles.heading2}`}>Cena pojedynczej sesji</h2>
-        <h2 className={`${styles.heading2} mt-[24px]`}><span className='text-gradient '>444 zł / 70 min.</span></h2>
+        <h2 className={`${styles.heading2} `}><span className='text-gradient '>444 zł / 70 min.</span></h2>
         <div>
-            <div className='flex flex-row  items-center text-center mb-2 mt-[48px]'>
+            <div className='flex flex-row  items-center text-center mb-2 mt-3'>
               <img src={shield} alt="shield"/>
               <p className={`${styles.paragraph} text-left max-w-[470px] ml-10`}>100% Gwarancja zwrotu pieniędzy</p>
             </div>
