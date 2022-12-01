@@ -44,6 +44,12 @@ body, html {scroll-padding-top: 150px;}
   background-color: #01102c;
 }
 
+.bg-navbar{
+  background: rgb(1,16,44);
+background: linear-gradient(180deg, rgba(1,16,44,1) 50%, rgba(28,61,101,0.5) 100%);
+
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -150,3 +156,27 @@ body, html {scroll-padding-top: 150px;}
   filter: blur(750px);
 }
 
+/* ----------------------------------------------------------------------NAVBAR OVERFLOW TESTS */
+.relative-wrap {
+    /*relative on second parent*/
+    position: relative;
+}
+
+.overflow-wrap {
+  
+    overflow: hidden;
+
+    
+    /*no relative on immediate parent*/
+}
+
+.respect-overflow {
+    position: relative;
+  
+}
+
+.no-overflow {
+    position: absolute;
+  
+    background: red;
+}

@@ -21,7 +21,8 @@ const styles = {
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
  
-    navBehaviour: "transition-all transform ease-in-out delay-400 duration-1000 fixed top-0 w-full z-50    ",
+    navBehaviourAfter: "transition-all transform ease-in-out delay-400 duration-1000 fixed top-0 w-full z-30 bg-navbar    ",
+    navBehaviourBefore: "transition-all transform ease-in-out delay-400 duration-1000 fixed top-0 w-full z-30  ",
 
     navLogoBehaviour: "ss:text-[] leading-[5px]"
 

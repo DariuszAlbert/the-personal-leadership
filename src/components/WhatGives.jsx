@@ -34,7 +34,7 @@ const WhatGives = () => {
             </div>
           </div>
       </div>
-      <div className={`flex-1 flex ${styles.flexCenter}  ml-0 md:mt-0 mt-4 relative flex-col`}>
+      <div className={`flex-1 flex ${styles.flexCenter}  ml-0 md:mt-0 mt-4 relative flex-col xs:w-4/5`}>
         {whatGives.map((benefit, index) =>(
           <FeatureCard key={benefit.id} {...benefit} index={index}/>
             )

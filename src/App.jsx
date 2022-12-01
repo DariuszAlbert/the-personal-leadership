@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './style';
 import { CTA, FAQ, Footer, Navbar,Shapes, Testimonials, WhatGives, WhatIs} from './components';
 import { scrollPositionTracker } from './hooks/scrollPositionTracker';
+import {Circle} from 'react-awesome-shapes';
+
 
 
 const App = () => {
@@ -14,10 +16,22 @@ const App = () => {
         
         
 
-      <div className={ scrollPosition > 0 ? `${styles.navBehaviour} ${styles.paddingX}  bg-color ` : ` ${styles.navBehaviour} ${styles.paddingX} `} >
+      <div className={ scrollPosition > 0 ? `${styles.navBehaviourAfter} ${styles.paddingX}    ` : ` ${styles.navBehaviourBefore} ${styles.paddingX} `} >
         <div className={` ${styles.flexCenter}  `}>
             <Navbar />
-            {/* <Shapes /> */}
+            {/* <div className='flex overflow-hidden'>
+            <Circle
+                    color="linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%)"
+                    size={['480px', '660px', '770px', '1000px']}
+                    
+                    position="absolute"
+                    
+                    top={['-150px','-200px','-225px','-300px' ]}
+                    right={['-150px','-200px','-225px','-225px' ]}
+                      
+                    
+            />
+            </div> */}
         </div> 
       </div>
       <div className={` ${styles.paddingX}  relative top-0 w-full z-10`} >

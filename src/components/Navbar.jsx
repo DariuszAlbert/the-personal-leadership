@@ -11,12 +11,12 @@ const Navbar = () => {
   return (
   // DESKTOP------------------------------------------------------------------------------------------
  
-  <header className={` ${styles.boxWidth} relative z-40 overflow-visible`}>
+  <header className={` ${styles.boxWidth} relative z-50 overflow-visible`}>
   
     <div className={` ${styles.boxWidth}`}>
     
     
-        <nav className=' flex pt-1 justify-between items-center relative z-50 navbar'>
+        <nav className=' flex pt-1 justify-between items-center relative  navbar'>
           <div className={`flex-col items-start`}>
             <div className={`${styles.flexStart} sm:flex-row flex-col xl:text-[40px] lg:text-[30px] sm:text-[40px] text-[16px] sm:leading-[33px] leading-[10px] font-medium mt-2`}>
               <p className='font-poppins font-medium  mt-2 '>
