@@ -5,13 +5,10 @@ import shield from "./Shield.svg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import arrowUp from "./arrow-up.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
+
 import ola from "./ola.png";
 import monika from "./monika.png";
-import success from "./success.jpg";
-import dart from "./dart.png";
+
 
 export {
   quotes,
@@ -20,11 +17,8 @@ export {
   star,
   menu,
   close,
-  arrowUp,
-  people01,
-  people02,
+  
   ola,
   monika,
-  success,
-  dart,
+
 };

@@ -1,15 +1,12 @@
 import React from 'react';
 import styles from '../style';
-import FooterLogo from './FooterLogo';
 import FooterPhoto from './FooterPhoto';
-import MainSlogan from './MainSlogan';
 import { footerLinks } from '../constants';
 
 const Footer = () => {
   return (
     <section id="contact" className={`${styles.flexCenter}  flex-col relative`}>
     
-
       <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
         
         <div className={`${styles.flexCenter} hidden md:block w-full flex-row sm:justify-start  text-center mt-2 sm:ml-16 `}>

@@ -1,13 +1,10 @@
 import React from 'react';
-import styles, {layout} from '../style';
-import { success, dart } from '../assets';
+import styles from '../style';
+
 
 
 const WhatIs = () => {
   return (
-
-  
-  
     <section id="coaching" className={`flex md:flex-row flex-col relative z-20 `}>
       <div className={`flex-1 ${styles.flexStart} md:flex-row flex-col   xs:items-start items-center `}>     
         <div className='flex justify-start items-start lg:w-1/2 xl:ml-0 '>
