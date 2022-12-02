@@ -5,7 +5,7 @@ import { footerLinks } from '../constants';
 
 const Footer = () => {
   return (
-    <section id="contact" className={`${styles.flexCenter}  flex-col relative`}>
+    <section id="contact" className={`${styles.flexCenter}  flex-col relative z-20`}>
     
       <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
         
@@ -28,12 +28,14 @@ const Footer = () => {
            </div>
         </div>
 
-        <div className={`${styles.flexCenter} md:hidden w-full flex-row lg:justify-start sm:mt-10 text-center mt-2 lg:ml-16 `}>
+        <div className={`${styles.flexCenter} md:hidden w-full md:flex-row flex-col lg:justify-start sm:mt-10 text-center mt-2 lg:ml-16 `}>
           
-                      <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
-                      <a href="tel:+48 503 769 939" className='mt-2 '><span className='text-gradient '>+48 503 769 939</span></a><br/>
-                      <a href="mailto:darek.golunski@gmail.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "><span className='text-gradient '>aleksandra@the-presonal-leadership.com</span></a><br/>
-                      {/* e-mail:<br/> aleksandra@the-presonal-leadership.com */}
+                      <p className={`font-poppins font-normal text-[20px] leading-[24px] mt-1 text-dimWhite  `}>
+                      <a href="tel:+48 503 769 939" ><span className='text-gradient '>+48 503 769 939</span></a><br/>
+                      </p>
+                      <p className={`font-poppins font-normal text-[20px] leading-[24px] mt-2 text-dimWhite  `}>
+                      <a  href="mailto:darek.golunski@gmail.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "><span className='text-gradient'>aleksandra@the-presonal-leadership.com</span></a><br/>
+                    
                     </p>
 
 
@@ -60,7 +62,7 @@ const Footer = () => {
       </div>
       <div className='w-full  flex justify-center items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]'>
         <p  className='font-poppins font-normal text-center text-[18px] leading-[27px] text-dimWhite mb-2'>
-          @ Copyright 2022  The Personal Leadership. All Rights Reserved.
+          @ Copyright 2022  Dariusz Gołuński. All Rights Reserved.
         </p>
         
       </div>

@@ -16,11 +16,12 @@ const WhatIs = () => {
         </div>
         <div className={`flex  ss:flex-row flex-col ss:justify-center items-center z-[1] `} >
           <div className={`flex flex-row ss:p-0 p-2 rounded-[20px] ss:w-4/5 w-full `}>
-            <div className='flex flex-col xs:mt-4'>
-                <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px]  `}>
+            <div className='flex flex-col xs:mt-4 '>
+                <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start md:feature-card p-6 rounded-[20px]  `}>
                     To proste...<br/> <span className='text-gradient text-[32px]'>Coaching jest...{' '}</span> <br/>
                     najskuteczniejszą metodą osiągania założonych celów i spełniania marzeń!
                 </p>
+                
             </div>
           </div>
         </div>

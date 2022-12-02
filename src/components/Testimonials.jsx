@@ -9,14 +9,14 @@ const Testimonials = () => {
       <section id='testimonials' className={` ${styles.flexCenter} flex-col relative z-20 mt-4 `}>
         
 
-        <div className='w-full flex justify-start xs:items-start items-center md:flex-row flex-col sm:mb-16 mb-0 z-[1]'>
+        <div className='w-full flex justify-start  items-start md:flex-row flex-col sm:mb-16 mb-0 z-[1]'>
           <h1 className=' font-poppins font-semibold ss:text-[60px] text-[38px] text-white text-left sm:leading-[70px] ss:leading-[77px] leading-[50px] sm:ml-10 ml-5 sm:p-6 p-0'>
                       Co mówią <br className='md:hidden block' />
                       <span className='text-gradient md:ml-[160px] ss:ml-[180px] ml-20'>klienci?{' '}</span> </h1>
                       <div className={`flex  ss:flex-row flex-col ss:justify-center items-center `} >
           <div className={`hidden  md:flex flex-row ss:p-0 p-2 rounded-[20px] ss:w-4/5 w-full `}>
             <div className='flex flex-col xs:mt-4'>
-                <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start feature-card p-6 rounded-[20px]  `}>
+                <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start ss:feature-card p-6 rounded-[20px]  `}>
                 O niezwykłej mocy procesu coachingowego i o pracy ze mną mówią moi Klienci...
                 </p>
             </div>
@@ -27,7 +27,7 @@ const Testimonials = () => {
           </div> */}
         </div>
 
-        <div className='flex sm:flex-row flex-col justify-center feedback-container relative z-[1] p-0 mt-4 '>
+        <div className='flex sm:flex-row flex-col justify-center md:feedback-container relative z-[1] p-0 mt-4 '>
           {feedback.map((card) =>(
             <FeedbackCard key={card.id} {...card}/>
                   
