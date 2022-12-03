@@ -10,10 +10,10 @@ export const navLinks = [
     id: "values",
     title: "Co Ci da? ",
   },
-  {
-    id: "testimonials",
-    title: "Opinie",
-  },
+  // {
+  //   id: "testimonials",
+  //   title: "Opinie",
+  // },
   {
     id: "faq",
     title: "FAQ",
@@ -106,7 +106,7 @@ export const firstFaq = [
     id: "faq-2",
     title: "Jakie mogą być obszary pracy coachingowej?",
     content:
-      "Wsparcie w procesie realizacji zmiany, potrzeba określenia celów, zmiana zawodowa, zwiększenie skuteczności i produktywności, zmiana nawyków i ograniczających przekonań, odkrycie i wykorzystanie mocnych stron, umiejętności interpersonalne, poznanie siebie, znalezienie powołania i motywacji… i wiele wiele innych.",
+      "Chcę zacząć ćwiczyć i żyć zdrowo, ale brakuje mi motywacji. Nie wiem jak zadbać o awans i podwyżkę. Blokuje mnie stres. Utknąłem w poszukiwaniu pomysłów na rozwój biznesu. Na nic nie mam czasu. Potrzebna mi zmiana zawodowa, ale nie wiem, od czego zacząć. I wiele, wiele innych... ",
   },
   {
     id: "faq-3",

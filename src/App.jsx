@@ -49,7 +49,7 @@ const App = () => {
       <div  className={` bg-color ${styles.paddingX} ${styles.flexStart} relative `}>
         <div className={`${styles.boxWidth} `}>
             <WhatGives />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <FAQ />
             <CTA  />
             <Footer />

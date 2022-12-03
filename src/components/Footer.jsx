@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div className='w-full  flex justify-center items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]'>
         <p  className='font-poppins font-normal text-center text-[18px] leading-[27px] text-dimWhite mb-2'>
-          @ Copyright 2022  The Personal Leadership. All Rights Reserved.
+          @ Copyright 2022  Dariusz Gołuński. All Rights Reserved.
         </p>
         
       </div>
