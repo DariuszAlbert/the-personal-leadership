@@ -1,4 +1,5 @@
 import { monika,  send, shield, star  } from "../assets";
+// ------------------------------------------------------------------------- NAVBAR ---------------------------------------
 
 export const navLinks = [
 
@@ -10,10 +11,10 @@ export const navLinks = [
     id: "values",
     title: "Co Ci da? ",
   },
-  {
-    id: "testimonials",
-    title: "Opinie",
-  },
+  // {
+  //   id: "testimonials",
+  //   title: "Opinie",
+  // },
   {
     id: "faq",
     title: "FAQ",
@@ -29,6 +30,7 @@ export const navLinks = [
   },
 ];
 
+// ------------------------------------------------------------------------------------ WHAT GIVES -----------------------------
 
 export const whatGives = [
   {
@@ -36,7 +38,7 @@ export const whatGives = [
     icon: star,
     title: "Odblokujesz osobisty potencjał",
     content:
-      "Odkryjesz uśpione zasoby, wzmocnisz naturalne talenty, znajdziesz motywację. Będziesz podejmował trafniejsze decyzje i zwyczajnie - staniesz się szczęśliwszy.",
+      "Odkryjesz uśpione zasoby, wzmocnisz naturalne talenty, znajdziesz motywację. Pokonasz wewnętrzne bariery. Będziesz podejmował trafniejsze decyzje.",
   },
   {
     id: "feature-2",
@@ -76,37 +78,26 @@ export const feedback = [
 ];
 
 
-export const footerLinks = [
-  {
-    title: "Przydatne linki",
-    id: "link-1",
-    links: [
-      {
-        name: "EMCC Poland",
-        link: "https://emccpoland.org/",
-      },
-      {
-        name: "Globalny Kodeks Etyczny",
-        link: "https://emccpoland.org/wp-content/uploads/2019/11/Kodeks-etyki-2021-PL.pdf",
-      },
-      
-    ],
-  },
- 
-];
+// --------------------------------------------------------------------------------- FAQ -----------------------------------------------------
 
 export const firstFaq = [
+  // {
+  //   id: "faq-1",
+  //   title: "Co zawiera cena?",
+  //   content:
+  //     "Ustaloną liczbę spotkań on-line, pracę coacha przed, w trakcie i po spotkaniu polegającą na analizie i indywidualnym doborze narzędzi oraz metod wspomagających Cię w określaniu i realizowaniu Twoich celów. Ćwiczenia dobierane odpowiednio do Ciebie, tematyki sesji i Twoich potrzeb.",
+  // },
   {
     id: "faq-1",
-    title: "Co zawiera cena?",
+    title: "Czym coaching jest, a czym nie jest?",
     content:
-      "Ustaloną liczbę spotkań on-line, pracę coacha przed, w trakcie i po spotkaniu polegającą na analizie i indywidualnym doborze narzędzi oraz metod wspomagających Cię w określaniu i realizowaniu Twoich celów. Ćwiczenia dobierane odpowiednio do Ciebie, tematyki sesji i Twoich potrzeb.",
+      "Nie jest doradztwem, nie jest też formą psychoterapii, ani treningiem motywacyjnym. Nie jest manipulacją, kontrolą, ani luźną przyjacielską relacją. Coach nie doradza i nie sugeruje, nie diagnozuje i nie leczy, nie zagląda w przeszłość, nie motywuje, nie uczy, nie kontroluje i nie ocenia. Coach umożliwia Ci wgląd i naukę, wspiera, towarzyszy, proponuje narzędzia, poszerza Twoją perspektywę. A Ty stajesz się autorem własnego sukcesu.",
   },
   {
     id: "faq-2",
     title: "Jakie mogą być obszary pracy coachingowej?",
     content:
-      "Wsparcie w procesie realizacji zmiany, potrzeba określenia celów, zmiana zawodowa, zwiększenie skuteczności i produktywności, zmiana nawyków i ograniczających przekonań, odkrycie i wykorzystanie mocnych stron, umiejętności interpersonalne, poznanie siebie, znalezienie powołania i motywacji… i wiele wiele innych.",
+      "Chęć rozpoczęcia zdrowego stylu życia, dążenie do awansu lub zmiany zawodowej, poradzenie sobie z blokującym stresem przy wystąpieniach publicznych, poszukiwanie alternatywnych pomysłów na rozwój biznesu, potrzeba lepszej organizacji swojego czasu i wiele, wiele innych... Temat coachingu, Drogi Kliencie, zależy od Ciebie.",
   },
   {
     id: "faq-3",
@@ -140,10 +131,15 @@ export const secondFaq = [
       "Jeśli masz cel, nad którym chcesz pracować, to świetnie! Jednak nie jest to konieczne. Proces coachingowy pomoże Ci Twój cel znaleźć, właściwie go sformułować i wesprze w jego realizacji.",
   },
   {
-    id: "faq-7",
-    title: "Czym coaching jest, a czym nie jest?",
+  //   id: "faq-7",
+  //   title: "Czym coaching jest, a czym nie jest?",
+  //   content:
+  //     "Nie jest doradztwem, nie jest też formą psychoterapii, ani treningiem motywacyjnym. Nie jest manipulacją, kontrolą, ani luźną przyjacielską relacją. Coach nie doradza i nie sugeruje, nie diagnozuje i nie leczy, nie zagląda w przeszłość, nie motywuje, nie uczy, nie kontroluje i nie ocenia. Coach umożliwia Ci wgląd i naukę, wspiera, towarzyszy, proponuje narzędzia, poszerza Twoją perspektywę. A Ty stajesz się autorem własnego sukcesu.",
+  // },
+     id: "faq-7",
+    title: "Chcę po prostu lepiej poznać siebie. Czy coaching mi w tym pomoże?",
     content:
-      "Nie jest doradztwem, nie jest też formą psychoterapii, ani treningiem motywacyjnym. Nie jest manipulacją, kontrolą, ani luźną przyjacielską relacją. Coach nie doradza i nie sugeruje, nie diagnozuje i nie leczy, nie zagląda w przeszłość, nie motywuje, nie uczy, nie kontroluje i nie ocenia. Coach umożliwia Ci wgląd i naukę, wspiera, towarzyszy, proponuje narzędzia, poszerza Twoją perspektywę. A Ty stajesz się autorem własnego sukcesu.",
+      "Oczywiście! Coaching świetnie sprawdza się jako metoda wspierania rozwoju osobistego. Lepsze poznanie siebie, to piękny kierunek.",
   },
  
   {
@@ -165,6 +161,54 @@ export const secondFaq = [
       "Zdecydowanie nie. Coaching nie jest procesem leczenia, lecz rozwoju. Nie jest ani psychoterapią, ani doradztwem. Nie dostaniesz tu gotowego rozwiązania, ani porady. W bezpiecznym środowisku, przy wsparciu profesjonalisty i odpowiednich narzędzi, najlepsze dla siebie rozwiązanie wypracujesz sam.",
   },
   
+];
+
+// -------------------------------------------------------------------------------- CTA ----------------------------------------------------
+export const youGetAlot = [
+  {
+    id: "youGet-1",
+    icon: star,
+    content:
+      '70-minutową sesję coachingową',
+  },
+  {
+    id: "youGet-2",
+    icon: star,
+    content:
+      'możliwość transformacji wybranych aspektów Twojego życia',
+  },
+  {
+    id: "youGet-3",
+    icon: star,
+    content:
+      'narzędzia i ćwiczenia dopasowane indywidualnie do Ciebie',
+  },
+  {
+    id: "youGet-4",
+    icon: star,
+    content:
+      'e-mailowy „checkpoint" pomiędzy spotkaniami',
+  },
+];
+
+// -------------------------------------------------------------------------------- FOOTER -------------------------------------------------
+export const footerLinks = [
+  {
+    title: "Przydatne linki",
+    id: "link-1",
+    links: [
+      {
+        name: "EMCC Poland",
+        link: "https://emccpoland.org/",
+      },
+      {
+        name: "Globalny Kodeks Etyczny",
+        link: "https://emccpoland.org/wp-content/uploads/2019/11/Kodeks-etyki-2021-PL.pdf",
+      },
+      
+    ],
+  },
+ 
 ];
 
 

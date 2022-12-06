@@ -22,10 +22,10 @@ const Navbar = () => {
               <p className='font-poppins font-medium  mt-2 '>
               <span className='text-white ' >The</span>
               </p>
-              <p className='font-poppins font-medium xl:ml-5  lg:ml-2 sm:ml-5  mt-2'>
+              <p className='font-poppins font-medium xl:ml-3  lg:ml-2 sm:ml-3  mt-2'>
               <span className='text-gradient' >Personal</span> 
               </p>
-              <p className='font-poppins font-medium xl:ml-5  lg:ml-2 sm:ml-5  mt-2'>
+              <p className='font-poppins font-medium xl:ml-3  lg:ml-2 sm:ml-3  mt-2'>
               <span className='text-white  ' >Leadership </span>
               </p>
             </div> 

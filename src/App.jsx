@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './style';
 import { CTA, FAQ, Footer, Navbar,Shapes, Testimonials, WhatGives, WhatIs} from './components';
 import { scrollPositionTracker } from './hooks/scrollPositionTracker';
-import {Circle} from 'react-awesome-shapes';
+
 
 
 
@@ -49,7 +49,7 @@ const App = () => {
       <div  className={` bg-color ${styles.paddingX} ${styles.flexStart} relative `}>
         <div className={`${styles.boxWidth} `}>
             <WhatGives />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <FAQ />
             <CTA  />
             <Footer />

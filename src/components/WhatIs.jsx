@@ -19,7 +19,7 @@ const WhatIs = () => {
             <div className='flex flex-col xs:mt-4 '>
                 <p className={`font-poppins font-normal text-[24px] leading-9 text-dimWhite text-start md:feature-card p-6 rounded-[20px]  `}>
                     To proste...<br/> <span className='text-gradient text-[32px]'>Coaching jest...{' '}</span> <br/>
-                    najskuteczniejszą metodą osiągania założonych celów i spełniania marzeń!
+                    najskuteczniejszą metodą osiągania założonych celów <br className='block ss:hidden'/> i spełniania marzeń!
                 </p>
                 
             </div>
