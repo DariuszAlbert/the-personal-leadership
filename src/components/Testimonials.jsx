@@ -27,7 +27,7 @@ const Testimonials = () => {
           </div> */}
         </div>
 
-        <div className='flex sm:flex-row flex-col justify-center md:feedback-container relative z-[1] p-0 mt-4 '>
+        <div className='flex sm:flex-row flex-col justify-center md:feedback-container relative z-[1] p-0 ss:mt-4 mt-0 '>
           {feedback.map((card) =>(
             <FeedbackCard key={card.id} {...card}/>
                   
@@ -46,4 +46,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Testimonials;

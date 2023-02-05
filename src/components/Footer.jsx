@@ -13,7 +13,7 @@ const Footer = () => {
           
                     <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  `}>
                        <a href="tel:+48 503 769 939" className='mt-2 '><span className='text-gradient '>+48 503 769 939</span></a><br/>
-                      <a href="mailto:aleksandra@the-personal-leadership.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "><span className='text-gradient '>aleksandra@the-presonal-leadership.com</span></a><br/>
+                      <a href="mailto:aleksandra@the-personal-leadership.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "><span className='text-gradient '>aleksandra@the-personal-leadership.com</span></a><br/>
                     </p>
         </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
                       <a href="tel:+48 503 769 939" ><span className='text-gradient '>+48 503 769 939</span></a><br/>
                       </p>
                       <p className={`font-poppins font-normal text-[20px] leading-[24px] mt-2 text-dimWhite  `}>
-                      <a href="mailto:aleksandra@the-personal-leadership.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "> <span className='text-gradient'>aleksandra@the-presonal-leadership.com</span></a><br/>
+                      <a href="mailto:aleksandra@the-personal-leadership.com?subject=Kontakt &body=Czy mogę prosić o kontakt w sprawie coachingu? Mój nr telefonu: "> <span className='text-gradient'>aleksandra@the-personal-leadership.com</span></a><br/>
                     
                     </p>
 

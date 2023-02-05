@@ -5,6 +5,7 @@ import FooterLogo from "./FooterLogo";
 import FooterPhoto from "./FooterPhoto";
 import Navbar from "./Navbar";
 import MainSlogan from "./MainSlogan";
+import Player from "./Player";
 import Shapes from "./Shapes";
 import Testimonials from "./Testimonials";
 import WhatGives from "./WhatGives";
@@ -22,6 +23,7 @@ export {
   FooterPhoto,
   Navbar,
   MainSlogan ,
+  Player,
   Shapes,
   Testimonials,
   WhatGives,

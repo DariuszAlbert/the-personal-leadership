@@ -1,4 +1,4 @@
-import { monika,  send, shield, star  } from "../assets";
+import { kasia, monika,  send, shield, star  } from "../assets";
 // ------------------------------------------------------------------------- NAVBAR ---------------------------------------
 
 export const navLinks = [
@@ -11,10 +11,10 @@ export const navLinks = [
     id: "values",
     title: "Co Ci da? ",
   },
-  // {
-  //   id: "testimonials",
-  //   title: "Opinie",
-  // },
+  {
+    id: "testimonials",
+    title: "Opinie",
+  },
   {
     id: "faq",
     title: "FAQ",
@@ -61,6 +61,7 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Wiedza i narzędzia zdobyte podczas naszych spotkań otworzyły mi możliwość lepszego zarządzania swoim czasem, lepszej wiedzy na temat własnych talentów, potencjałów i możliwości, a także rozpoczęcie procesu pozbywania się zupełnie niepotrzebnych blokujących mnie przekonań.",
+    recommendation: "Polecam z całego serca!",
     name: "Monika",
     title: "DoMMastersWoodArt",
     img: monika,
@@ -68,10 +69,11 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Wiedza i narzędzia zdobyte podczas naszych spotkań otworzyły mi możliwość lepszego zarządzania swoim czasem, lepszej wiedzy na temat własnych talentów, potencjałów i możliwości, a także rozpoczęcie procesu pozbywania się zupełnie niepotrzebnych blokujących mnie przekonań.",
-    name: "Monika",
-    title: "DoMMastersWoodArt",
-    img: monika,
+      `Sesje z Olą pomogły mi uświadomić sobie, a następnie osiągnąć postawione cele, ale także znaleźć odpowiedzi i zrozumieć pewne schematy zachowania, które reprezentowałam. Teraz wiem, nad czym pracować i dzięki temu czuję, że wzrastam. `,
+    recommendation: "Serdecznie polecam :)",
+    name: "Kasia",
+    title: "Lektor języka angielskiego",
+    img: kasia,
   },
  
   
@@ -115,7 +117,7 @@ export const firstFaq = [
     id: "faq-5",
     title: "Kto się dowie o tym, co powiedziałem na sesji?",
     content:
-      "Nikt. Coach jest zobowiązany do całkowitej poufności i zachowania tajemnicy procesu. Pracuję zgodnie ze standardami EMCC, międzynarodowej organizacji skupiającej ekspertów-praktyków mentoringu, coachingu i superwizji. Przestrzegam Kodeksu Etycznego tej organizacji.",
+      "Nikt. Coach jest zobowiązany do całkowitej poufności i zachowania tajemnicy procesu. Jestem członkiem EMCC, międzynarodowej organizacji skupiającej ekspertów-praktyków mentoringu, coachingu i superwizji. Pracuję zgodnie ze standardami tej organizacji i przestrzegam jej Kodeksu Etycznego.",
   },
  
   

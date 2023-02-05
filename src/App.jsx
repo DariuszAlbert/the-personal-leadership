@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './style';
-import { CTA, FAQ, Footer, Navbar,Shapes, Testimonials, WhatGives, WhatIs} from './components';
+import { CTA, FAQ, Footer, Navbar,Player,  Shapes, Testimonials, WhatGives, WhatIs} from './components';
 import { scrollPositionTracker } from './hooks/scrollPositionTracker';
+import ReactPlayer from "react-player/youtube";
 
 
 
@@ -9,13 +10,8 @@ import { scrollPositionTracker } from './hooks/scrollPositionTracker';
 const App = () => {
   const scrollPosition = scrollPositionTracker();
 
-  return (
-
-    
+  return ( 
     <div  className='bg-color w-full overflow-hidden '>
-        
-        
-
       <div className={ scrollPosition > 0 ? `${styles.navBehaviourAfter} ${styles.paddingX}    ` : ` ${styles.navBehaviourBefore} ${styles.paddingX} `} >
         <div className={` ${styles.flexCenter}  `}>
             <Navbar />
@@ -46,16 +42,14 @@ const App = () => {
         </div>
       </div>
       
-      <div  className={` bg-color ${styles.paddingX} ${styles.flexStart} relative `}>
+      <div  className={` flex-center bg-color ${styles.paddingX} ${styles.flexStart} relative `}>
         <div className={`${styles.boxWidth} `}>
             <WhatGives />
-            {/* <Testimonials /> */}
+            <Testimonials />
             <FAQ />
+            <Player />
             <CTA  />
             <Footer />
-      
- 
-
         </div>
       </div>
     </div>
